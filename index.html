@@ -18,8 +18,8 @@
         </nav>
     </header>
       
-        <main>
-          <section>
+    <main>
+        <section>
             <article id="about-me">
                 <aside>
                     <img
@@ -31,24 +31,53 @@
                     <h2>About Me</h2>
                     <div>
                         <p>Hey!! I'm Kay Landry.</p>
-                        <p>I'm a web developer currently attending fulltime bootcamp. I spent the last night years 
-                            working in a hospital as a medical lab technician and am lookimng forward to this career 
+                        <p>
+                            I'm a web developer currently attending fulltime bootcamp. I spent the last nine years 
+                            working in a hospital as a medical lab technician and am looking forward to this career 
                             change.
                         </p>
                     </div>
                 </div>
             </article>
 
-             <article id="my-work">
+            <!-- my work section-->
+            <article id="my-work">
                 <h2>My Work</h2>
                 <div>
                     <p>Check out some of my projects!</p>
-                    <ul>
+                    <!-- this image is bigger so it got its own id-->
+                    <div id="top-project">
+                        <ul>
+                            <li>
+                                <a href="https://kaystaken.github.io/accessible-marketing-site/">
+                                    Accessible Marketing Site
+                                    <br />
+                                    <img
+                                        src="./assets/images/deployedapp.png"
+                                        alt="screenshot of accessible marketing site"
+                                    />  
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul id="project-list">
                         <li>
-                            <a href="https://kaystaken.github.io/accessible-marketing-site/">
+                            <a href="#">
+                                Another project coming soon
+                                <br />
                                 <img
-                                    src="./assets/images/deployedapp.png"
-                                    alt="screenshot of accessible marketing site"
+                                    src="./assets/images/sample.jpg"
+                                    alt="placeholder image"
+                                />  
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Project TBD
+                                <br />
+                                <img
+                                    src="./assets/images/sample.jpg"
+                                    alt="placeholder image"
                                 />  
                             </a>
                         </li>
@@ -56,18 +85,21 @@
                 </div>
             </article>
 
-               <article id="contact">
+            <article id="contact">
                 <h2>Contact</h2>
                 <div>
-                  <ul>
-                     <!--id attributes to provide unique identifier for element-->
-                    <li id="email">
-                    <strong>Email:</strong> <a href="mailto:hiebertkay@gmail.com">hiebertkay@gmail.com</a>
-                    </li>
-                    <li id="github"><strong>GitHub:</strong> <a href="https://github.com/Kaystaken">Kaystaken</a></li>
-                  </ul>
-                  </div>
-               </article>
-
+                    <ul>
+                        <!--id attributes to provide unique identifier for element-->
+                        <li id="email">
+                            <strong>Email:</strong> <a href="mailto:hiebertkay@gmail.com">hiebertkay@gmail.com</a>
+                        </li>
+                        <li id="github">
+                            <strong>GitHub:</strong> <a href="https://github.com/Kaystaken">Kaystaken</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
