@@ -1,9 +1,9 @@
-# My Personal Porfolio
+# My Personal Portfolio
 ## Description
 
 ### Motivation
 
-I'm currently attending a bootcamp for web deveolpment and wanted to start a porfolio to show my deployed projects to hiring managers. 
+I'm currently attending a bootcamp for web deveolpment and wanted to start a portfolio to show my deployed projects to hiring managers. 
 
 ### Why?
 
