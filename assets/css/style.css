@@ -9,8 +9,7 @@ body {
     padding: 1%;
     background-color: #025773;
     color: #fff;
-
-}
+  }
   
   h1 {
     font-size: 500%;
@@ -20,18 +19,18 @@ body {
   h2 {
     margin: 2% 0;
     font-size: 250%;
+    text-align: center
   }
   
   img { max-width: 50%
 
-}
+  }
  
   nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
     flex-wrap: wrap;
-    
   }
   
   nav a {
@@ -68,46 +67,32 @@ body {
   } 
   
   .my-details {
+    margin-top: 5%;
     margin-left: 3%;
     flex: 2 0 60%;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #025773;
+  }
   }
 
   article {
     border-bottom: 1px solid #025773;;
+    margin-left: 3%;
   }
   
   article p {
-    margin: 2% 0;
+    margin-left: 9%;
     font-size: 110%;
   }
   
   article ul {
     margin-left: 5%;
     font-size: 110%;
-    list-style: circle;
+    list-style: cross-fade()
   }
   
-  form {
-    max-width: 400px;
-  }
   
-  form h3 {
-    font-size: 150%;
-  }
+
   
-  form p {
-    margin: 3% 0;
-  }
+
   
-  label {
-    display: block;
-  }
-  
-  button {
-    padding: 1% 2%;
-    color: #fff;
-    background-color: #13293d;
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
