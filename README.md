@@ -1,2 +1,2 @@
 # personal-portfolio
-Personal portfolio showing samples of my work how to contact me
+A bit about me, my work and how to contact me.
