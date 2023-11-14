@@ -9,7 +9,8 @@ body {
     padding: 1%;
     background-color: #025773;
     color: #fff;
-  }
+
+}
   
   h1 {
     font-size: 400%;
@@ -22,7 +23,7 @@ body {
   }
   
   img { max-width: 50%
-   
+
 }
  
   nav ul {
@@ -49,10 +50,30 @@ body {
     flex: 1 1 0;
     max-width: 1200px;
   }
-  
-  article {
-    border-bottom: 1px solid #d8a47f;
 
+  #about-me {
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    margin: 1% auto;
+  }
+
+  #about-me aside {
+    display: flexbox;
+    flex: 0 0 15%;
+  }
+
+  #about-me img {
+    max-width: 100%;
+  } 
+  
+  .my-details {
+    margin-left: 3%;
+    flex: 2 0 60%;
+  }
+
+  article {
+    border-bottom: 1px solid #025773;;
   }
   
   article p {
