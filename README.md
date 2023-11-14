@@ -1,4 +1,3 @@
-# personal-portfolio
 # My Personal Porfolio
 ## Description
 
